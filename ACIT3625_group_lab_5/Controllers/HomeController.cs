@@ -34,6 +34,13 @@ namespace ACIT3625_group_lab_5.Controllers
             return View();
         }
 
+        public IActionResult Yuyu()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
