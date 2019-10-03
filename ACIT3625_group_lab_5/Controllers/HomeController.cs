@@ -15,6 +15,11 @@ namespace ACIT3625_group_lab_5.Controllers
             return View();
         }
 
+        public IActionResult Ryan()
+        {
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
